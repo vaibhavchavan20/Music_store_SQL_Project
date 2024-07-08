@@ -1,6 +1,6 @@
 # SQL Queries and Answers
 
-### Q1. Who is the senior most employee based on levels?
+**## Q1. Who is the senior most employee based on levels?**
 
 ```sql
 SELECT 
@@ -13,7 +13,7 @@ FROM
 ORDER BY levels DESC
 LIMIT 1;```
 
-### Q2. Which countries have the most Invoices?
+**## Q2. Which countries have the most Invoices?**
 
 ```sql
 SELECT 
