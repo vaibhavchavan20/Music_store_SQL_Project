@@ -2,7 +2,7 @@
 
 **## Q1. Who is the senior most employee based on levels?**
 
-
+```sql
 SELECT 
     employee_id,
     CONCAT(last_name, ' ', first_name) AS full_name,
@@ -11,7 +11,7 @@ SELECT
 FROM
     employee
 ORDER BY levels DESC
-LIMIT 1;
+LIMIT 1;```
 
 **# Q2. Which countries have the most Invoices?**
 
