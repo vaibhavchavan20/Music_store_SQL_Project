@@ -12,3 +12,14 @@ FROM
     employee
 ORDER BY levels DESC
 LIMIT 1;
+
+## Q2. Which countries have the most Invoices?
+
+```sql
+SELECT 
+    billing_country, COUNT(billing_country) AS count
+FROM
+    invoice
+GROUP BY billing_country
+ORDER BY count DESC
+LIMIT 1;
